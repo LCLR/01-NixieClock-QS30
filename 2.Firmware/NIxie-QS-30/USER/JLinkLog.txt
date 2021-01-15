@@ -1,0 +1,111 @@
+T064C 890:844.566   SEGGER J-Link V6.62d Log File
+T064C 890:844.621   DLL Compiled: Mar  2 2020 09:22:41
+T064C 890:844.627   Logging started @ 2021-01-06 12:28
+T064C 890:844.634 JLINK_SetWarnOutHandler(...)
+T064C 890:844.639 - 0.007ms
+T064C 890:844.645 JLINK_OpenEx(...)
+T064C 890:845.792   Firmware: J-Link V9 compiled Dec 13 2019 11:14:50
+T064C 890:845.918   Decompressing FW timestamp took 107 us
+T064C 890:856.900   Hardware: V9.20
+T064C 890:856.915   S/N: 4294967295
+T064C 890:856.922   OEM: SEGGER
+T064C 890:856.929   Feature(s): None
+T064C 890:858.035   TELNET listener socket opened on port 19021
+T064C 890:860.501   WEBSRV Starting webserver
+T064C 890:860.580   WEBSRV Webserver running on local port 19080
+T064C 890:860.588 - 15.946ms returns "O.K."
+T064C 890:860.598 JLINK_GetEmuCaps()
+T064C 890:860.603 - 0.007ms returns 0xB9FF7BBF
+T064C 890:860.609 JLINK_TIF_GetAvailable(...)
+T064C 890:860.910 - 0.306ms
+T064C 890:860.921 JLINK_SetErrorOutHandler(...)
+T064C 890:860.926 - 0.007ms
+T064C 890:860.938 JLINK_ExecCommand("ProjectFile = "G:\NutstoreWindows\DIY Project\NIxie-QS-30\USER\JLinkSettings.ini"", ...). 
+T064C 890:861.934 - 1.001ms returns 0x00
+T064C 890:862.262 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T064C 890:862.410   Device "STM32F103C8" selected.
+T064C 890:862.769 - 0.494ms returns 0x00
+T064C 890:862.781 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T064C 890:862.790 - 0.005ms returns 0x01
+T064C 890:862.796 JLINK_GetHardwareVersion()
+T064C 890:862.802 - 0.007ms returns 0x16760
+T064C 890:862.808 JLINK_GetDLLVersion()  returns 66204
+T064C 890:862.815 JLINK_GetFirmwareString(...)
+T064C 890:862.820 - 0.007ms
+T064C 890:862.828 JLINK_GetDLLVersion()  returns 66204
+T064C 890:862.833 JLINK_GetCompileDateTime()
+T064C 890:862.838 - 0.006ms
+T064C 890:862.844 JLINK_GetFirmwareString(...)
+T064C 890:862.849 - 0.006ms
+T064C 890:862.854 JLINK_GetHardwareVersion()
+T064C 890:862.859 - 0.006ms returns 0x16760
+T064C 890:862.868 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T064C 890:863.304 - 0.442ms returns 0x00
+T064C 890:863.319 JLINK_SetSpeed(50000)
+T064C 890:863.424 - 0.111ms
+T064C 890:863.716 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T064C 890:863.725 - 0.011ms returns JLINKARM_RESET_TYPE_NORMAL
+T064C 890:863.731 JLINK_Reset()
+T064C 891:065.845   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 891:371.386   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 891:677.837   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 891:983.208   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 892:289.903   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 892:595.533   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 892:901.449   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 893:207.353   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 893:513.248   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 893:819.855   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 893:923.056   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T064C 894:125.064   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 894:379.691   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 894:481.535   
+  ***** Error: 
+T064C 894:481.554   STM32: Connecting to CPU via connect under reset failed.
+T064C 894:813.178   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 894:915.550   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T064C 895:116.862   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 895:370.874   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 895:473.535   
+  ***** Error: 
+T064C 895:473.547   STM32: Connecting to CPU via connect under reset failed.
+T064C 895:524.350 JLINK_GetId()
+T064C 895:727.295   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 895:829.673   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T064C 896:030.609   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 896:284.177   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 896:386.720   
+  ***** Error: 
+T064C 896:386.750   STM32: Connecting to CPU via connect under reset failed.
+T064C 896:715.425   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 896:818.710   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T064C 897:019.758   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 897:273.791   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 897:376.640   
+  ***** Error: 
+T064C 897:376.658   STM32: Connecting to CPU via connect under reset failed.
+T064C 897:427.566 - 1903.222ms   returns 0x00000000
+T064C 897:427.583 JLINK_GetId()
+T064C 897:632.239   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 897:734.897   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T064C 897:935.261   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 898:188.243   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 898:290.699   
+  ***** Error: 
+T064C 898:290.714   STM32: Connecting to CPU via connect under reset failed.
+T064C 898:618.512   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 898:721.799   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T064C 898:922.275   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 899:175.587   RESET (pin 15) high, but should be low. Please check target hardware.
+T064C 899:278.315   
+  ***** Error: 
+T064C 899:278.328   STM32: Connecting to CPU via connect under reset failed.
+T064C 899:329.583 - 1902.013ms   returns 0x00000000
+T064C 899:330.455 JLINK_GetFirmwareString(...)
+T064C 899:330.462 - 0.009ms
+T2E34 975:991.675   
+  ***** Error: Connection to emulator lost!
+T064C 1001:447.022 JLINK_Close()
+T064C 1001:457.972 - 10.963ms
+T064C 1001:457.988   
+T064C 1001:457.993   Closed
